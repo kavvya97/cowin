@@ -1,0 +1,21 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "Covid-19 vaccine notifier and alert app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavvya97/cowin.git"
+  },
+  "author": "Kavvya Ramarathnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavvya97/cowin/issues"
+  },
+  "homepage": "https://github.com/kavvya97/cowin#readme",
+  "dependencies": {
+  }
+}

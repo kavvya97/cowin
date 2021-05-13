@@ -1,0 +1,7 @@
+{
+  "name": "cowin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
