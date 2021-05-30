@@ -1,0 +1,23 @@
+.cowin-app-common-pin-section {
+  .cowin-pin-card{
+    padding: 30px;
+    height: 50%;
+
+    .cowin-pin-form-section {
+      text-align: center;
+
+      .cowin-pin-input{
+        margin: 10px;
+      }
+      .cowin-pin-button {
+        width: 80%;
+        margin-top: 20px;
+      }
+      .pin-outline,.calendar-outline {
+        margin-top: 25px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+  

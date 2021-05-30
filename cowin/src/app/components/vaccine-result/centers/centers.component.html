@@ -1,0 +1,19 @@
+<ion-item class="mat-elevation-z5" [routerLink]="'/center/' + center.center_id" [detail]=false>
+  <ion-label class="ion-text-wrap">
+    <h2 class="cowin-header" style="font-weight: bold; text-transform: uppercase;">{{center.name}}</h2>
+    <h4 style="color: #a77416;">{{center.district_name}}, {{center.state_name}}</h4>
+
+    <div class="cowin-sub-headers cowin-app-info-label">
+      <span class="cowin-info-label">vaccine: </span>
+      <span>{{center.vaccine}}</span>
+    </div>
+    <div class="cowin-sub-headers cowin-app-info-label">
+      <span class="cowin-info-label">Age Limit: </span>
+      <span>{{center.min_age_limit}}</span>
+    </div>
+    <div class="cowin-sub-headers cowin-app-info-label">
+      <span class="cowin-info-label">Capacity: </span>
+      <span>{{center.available_capacity}}</span>
+    </div>
+  </ion-label>
+</ion-item>

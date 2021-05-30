@@ -1,15 +1,16 @@
+.cowin-vaccine-app{
+    background-color: #fbf2e0;
+}
 .cowin-app-common-container {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
     align-items: center;
-
+    
     .cowin-app-divider{
         padding-bottom: 30px;
     }
-
-    
     .mat-card-header-text {
         margin: 0 5px;
     }
@@ -17,4 +18,20 @@
         text-align: left;
         text-transform: uppercase;
     }
+}
+ion-toolbar {
+    --background: #eec77f;
+}
+ion-button {
+    --background: #db991d;
+}
+.cowin-link, .cowin-header, .cowin-input-field {
+    color: #73500f;
+}
+.cowin-sub-headers {
+    color: #ecc06e;
+}
+
+.mat-card {
+    background-color: #fefbf7;
 }

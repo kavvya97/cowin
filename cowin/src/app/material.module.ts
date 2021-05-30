@@ -7,21 +7,25 @@ import { MatSelectModule } from '@angular/material/select';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   imports: [
   ],
   exports: [
-     CommonModule,
+    CommonModule,
     IonicModule,
+    MatRadioModule,
     MatCardModule,
     FormsModule,
     MatSelectModule,
     ReactiveFormsModule,
     MatDividerModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    RouterModule
   ],
   declarations: [ ]
 })

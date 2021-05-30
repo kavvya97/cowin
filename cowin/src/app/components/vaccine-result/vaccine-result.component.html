@@ -1,0 +1,36 @@
+<ng-container *ngIf="!results.length">
+    <ion-header [translucent]="true">
+        <ion-toolbar>
+          <ion-title>
+            Cowin
+          </ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <div class="cowin-app-common-container cowin-vaccine-app">
+        <section class="cowin-vaccine-result-container">
+            <section class="cowin-no-vaccine-result-card">
+                <section class="cowin-no-vaccine-card" >
+                    <img width="35%" src="../../assets/vaccine/no-vaccine.png" alt="no-vaccine">
+                    <div class="cowin-no-vaccine">No vaccination centres available !!</div>
+                    <a routerLink="/pin">Enter Pincode Again?</a>
+                </section>
+            </section>
+        </section>
+    </div>
+</ng-container>
+
+<ng-container  *ngIf="results?.length">
+    <ion-header [translucent]="true">
+        <ion-toolbar>
+            <ion-buttons slot="start">
+                <ion-back-button></ion-back-button>
+            </ion-buttons>
+        </ion-toolbar>
+    </ion-header>
+    <ion-list class="cowin-list-view-container cowin-vaccine-app">
+        <app-centers *ngFor="let resultItem of results" [center]="resultItem"></app-centers>
+    </ion-list>
+</ng-container>
+
+
+
